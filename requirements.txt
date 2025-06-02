@@ -1,43 +1,43 @@
 # Core dependencies
-redis==5.0.1
-psycopg2-binary==2.9.9
-SQLAlchemy==2.0.23
-alembic==1.13.1
+redis>=5.0.0
+psycopg2-binary>=2.9.0
+SQLAlchemy>=2.0.0
+alembic>=1.13.0
 
 # Web framework
-Flask==3.0.0
-Flask-SQLAlchemy==3.1.1
-Flask-Migrate==4.0.5
-Flask-CORS==4.0.0
-gunicorn==21.2.0
+Flask>=3.0.0
+Flask-SQLAlchemy>=3.1.0
+Flask-Migrate>=4.0.0
+Flask-CORS>=4.0.0
+gunicorn>=21.0.0
 
 # Data processing
-pandas==2.1.4
-numpy==1.26.2
-openpyxl==3.1.2
+pandas>=2.1.0
+numpy>=1.24.0
+openpyxl>=3.1.0
 
 # Utilities
-python-dotenv==1.0.0
-click==8.1.7
-python-dateutil==2.8.2
-pytz==2023.3
+python-dotenv>=1.0.0
+click>=8.1.0
+python-dateutil>=2.8.0
+pytz>=2023.3
 
-# Development and testing
-pytest==7.4.3
-pytest-cov==4.1.0
-black==23.11.0
-flake8==6.1.0
-isort==5.12.0
+# Development and testing (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.0.0
+isort>=5.12.0
 
 # Monitoring and logging
-structlog==23.2.0
-prometheus-client==0.19.0
+structlog>=23.0.0
+prometheus-client>=0.19.0
 
-# Security
-cryptography==41.0.8
-bcrypt==4.1.2
+# Security (use compatible versions)
+cryptography>=41.0.0
+bcrypt>=4.0.0
 
 # Optional: for advanced features
-celery==5.3.4
-flower==2.0.1
+celery>=5.3.0
+flower>=2.0.0
 
